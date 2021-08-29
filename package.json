@@ -1,0 +1,31 @@
+{
+  "name": "realtime-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19damah23/Backend-realtimeapp.git"
+  },
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "author": "Muchamad Agus Hermawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19damah23/Backend-realtimeapp/issues"
+  },
+  "homepage": "https://github.com/19damah23/Backend-realtimeapp#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mysql2": "^2.3.0",
+    "socket.io": "^4.1.3"
+  }
+}
