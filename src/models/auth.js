@@ -27,7 +27,22 @@ const findUser = (email) =>
     );
   });
 
+const userActivation = (email, status) =>
+  new Promise((resolve, reject) => {
+    conn.query(
+      `UPDATE users SET status = '${status}' WHERE email = '${email}'`,
+      (error, result) => {
+        if (!error) {
+          resolve(result);
+        } else {
+          reject(error);
+        }
+      }
+    );
+  });
+
 module.exports = {
   register,
-  findUser
+  findUser,
+  userActivation
 };
