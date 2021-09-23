@@ -89,7 +89,7 @@ npm run dev
 ```
 
 ### Related Project
-* [`Frontend-Telegram-Clone`](https://github.com/muchamadagush/realtimeapp)
+* [`Frontend-Telegram-Clone`](https://github.com/muchamadagush/realtime-chat)
 * [`Backend-Telegram-Clone`](https://github.com/muchamadagush/Backend-realtimeapp)
 
 ## Contact
